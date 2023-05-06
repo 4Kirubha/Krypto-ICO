@@ -17,7 +17,7 @@ export default function Home() {
   const [tokensToBeClaimed,setTokensToBeClaimed] = useState(zero);
   const [balanceofKryptoKoinToken,setBalanceofKryptoKoinToken] = useState(zero);
   const [tokenAmount,setTokenAmount] = useState(zero);
-  const [tokensMinted,setTokensMinted] = useState(0);
+  const [tokensMinted,setTokensMinted] = useState(zero);
   const [isOwner,setIsOwner] = useState(false);
   const web3ModalRef = useRef();
 
@@ -172,7 +172,7 @@ export default function Home() {
         disableInjectedProvider: false,
       });
       connectWallet();
-      getTokensToBeClaimed();
+      getTotalTokensMinted();
       getTokensToBeClaimed();
       getBalanceofKryptoKoinToken();
       getOwner();
