@@ -17,6 +17,6 @@ Feel free to contribute to this project to make it better!
 
 This project has an MIT License.
 
-## Made by love
+## Website link
 
 - [Krypto Koin ICO](https://kk-ico.netlify.app/)
